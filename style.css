@@ -155,3 +155,21 @@ body {
 	list-style-type:none;
 	line-height: 0;
 }
+#glass {
+    position: absolute;
+	top:24px;
+}
+#glassL, #glassR {
+	border: 4px solid #000000;
+    height: 15px;
+    position: absolute;
+    width: 22px;
+	
+}
+#glassL {
+	left: 11px;
+}
+#glassR {
+	left: 48px;
+}
+
