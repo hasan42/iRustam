@@ -172,4 +172,17 @@ body {
 #glassR {
 	left: 48px;
 }
-
+#glassL:after, #glassL:before, #glassR:after, #glassR:before {
+    border: 3px solid #000000;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 2px;
+    width: 8px;	
+}
+#glassL:after, #glassR:after {
+    right: -13px;
+}
+#glassL:before, #glassR:before {
+    left: -13px;
+}
