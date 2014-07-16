@@ -1,12 +1,12 @@
 @keyframes slide {
-  0% { left:-30px }
-  50% { left:-10px; }
-  100% { left:-30px; }
+  0% { left:15px }
+  50% { left:25px; }
+  100% { left:15px; }
 }
 @-webkit-keyframes slide {
-  0% { left:-30px }
-  50% { left:-10px; }
-  100% { left:-30px; }
+  0% { left:15px }
+  50% { left:25px; }
+  100% { left:15px; }
 }
 
 @keyframes width {
@@ -284,13 +284,13 @@ body {
 
 /* ---------- HAND ------------*/
 
-#handL {
+#handR {
 	border-color: transparent #ffd291 #ffd291;
     border-radius: 50%;
     border-style: solid;
-    border-width: 36px 16px 11px 10px;
+    border-width: 36px 10px 11px 16px;
     height: 43px;
-    left: -74px;
+    left: 98px;
     position: absolute;
     top: 0;
     width: 39px;
@@ -299,43 +299,43 @@ body {
     animation:width 2s -1.7s ease-in-out infinite;	
 }
 
-#armL {
+#armR {
 	background-color: #ffd291;
     border-radius: 37%;
     height: 22px;
     left: -24px;
     position: absolute;
-    top: -15px;
+    top: -17px;
     width: 37px;
 	-webkit-animation:slide 2s -1.7s ease-in-out infinite;
     animation:slide 2s -1.7s ease-in-out infinite;
 }
-#armLfinger0, #armLfinger1, #armLfinger2, #armLfinger3, #armLfinger4 {
+#armRfinger0, #armRfinger1, #armRfinger2, #armRfinger3, #armRfinger4 {
 	background-color: #ffd291;
     border-radius: 30%;
     height: 22px;
     position: absolute;
     width: 5px;
 }
-#armLfinger0 {
-	left: 37px;
+#armRfinger0 {
+	left: -5px;
     top: -1px;
-    transform: rotate(53deg);
+    transform: rotate(134deg);
 }
-#armLfinger4 {
-	left: 0;
+#armRfinger4 {
+	left: 31px;
     top: -11px;
 }
-#armLfinger3 {
-	left: 10px;
+#armRfinger3 {
+	left: 20px;
     top: -13px;	
 }
-#armLfinger2 {
-	left: 20px;
+#armRfinger2 {
+	left: 10px;
     top: -15px;	
 }
-#armLfinger1 {
-	left: 31px;
+#armRfinger1 {
+	left: 0px;
     top: -12px;	
 }
 
