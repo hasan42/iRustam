@@ -1,3 +1,65 @@
+
+body {
+    font: 14px Helvetica LT Std, Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+}
+div.wrap {
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+header {	
+	margin-left:50px;
+	position:relative;
+}
+aside {
+	width: 350px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin-left:50px;
+}
+
+article {
+	width: 500px;
+	margin-left:400px;
+	/*border: 1px solid red;*/
+}
+
+h1 {
+	font-size:32px;
+	font-weight:normal;
+	line-height: 38px;
+}
+h2 {
+	font-size:26px;
+	font-weight:normal;
+	line-height: 28px;
+}
+h3 {
+	font-size:18px;
+	font-weight:normal;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------- Фигурка -------------------------------------------- */
+
 /* -------------- АНИМАЦИЯ
 Плохо работает в разных браузерах.
 замена на jQuery
@@ -25,13 +87,9 @@
 
 /АНИМАЦИЯ ----------------- */
 
-body {
-	width:960px;
-	height:960px;
-	background-color:##ffffff;
-}
+
 #man {
-	margin: 50px 30%;
+	margin-left:50px;
 }
 
 /* ---------- HEAD ------------*/
@@ -434,7 +492,7 @@ body {
 
 /* ---------- /FOOT ------------*/
 
-
+/* ------------------------------------------------- /Фигурка -------------------------------------------- */
 
 
 
