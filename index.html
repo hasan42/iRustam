@@ -1,13 +1,15 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-		<title>Figura</title>
+		<title>iRustam</title>
 		<link rel='stylesheet' href="style.css">
+		<script src="/js/jquery-1.11.1.min.js"></script>
+		<script src="/js/script.js"></script>
 	</head>
 	<body>
 		<div class="wrap">
 			<header>
-				<h1>Привет. Я Рустам.</h1>
+				<h1>iRustam</h1>
 			</header>
 			<aside>
 				<div id="man">
@@ -58,9 +60,42 @@
 				</div>
 			</aside>
 			<article>
-				<section>Тут Информация</section>
-				<section>Тут Информация</section>
-				<section>Тут Информация</section>
+			<div class="sliderBox">
+				<div class="sliderWrap">
+					<div class="slide">
+						<section>
+							<h2>Рустам</h2>
+							<P>10.02.1988</P>
+							<P>г.Кемерово</P>
+							<P>2003-2007 Кемеровский горно-технический колледж.<BR>Автоматизированные системы управления и обработки информации.</P>
+						</section>
+					</div>
+					<div class="slide">
+						<section>
+							<h2>Опыт работы</h2>
+							<div style="background-image: url(images/averdo.jpg)" class="experience">
+								<h3><a href="http://google.ru" target="_blank">Авердо</a></h3>
+								<P><b>Январь - июль 2014</b></P>
+								<P>Верстка, привязка веб-сайтов на 1C-Bitrix.</p>
+							</div>
+							<div style="background-image: url(images/5th.jpg)" class="experience">
+								<h3><a href="http://google.ru" target="_blank">Пятое измерение</a></h3>
+								<P><b>Апрель 2011 - ноябрь 2013</b></P>
+								<P>Наполнение, тех.поддержка веб-сайтов</p>
+							</div>
+						</section>
+					</div>
+					<div class="slide">
+						<section>
+							<h2>Навыки</h2>
+							<P>HTML, CSS, jQuery, PHP, 1C-Bitrix.</P>
+							<P><a href="https://github.com/hasan42">GitHub</a></P>
+						</section>
+					</div>				
+				</div>
+			</div>
+			<button class="sliderPrev"><</button>
+			<button class="sliderNext">></button>
 			</article>		
 		</div>
 		

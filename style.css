@@ -40,14 +40,58 @@ h3 {
 	font-size:18px;
 	font-weight:normal;
 	line-height: 20px;
+	margin-bottom:10px;
+}
+p {
+	margin:5px 0;
+}
+a {
+	color:#006699;
+}
+a:hover {
+	color:#00afe5;
+	text-decoration:none;
 }
 
+div.experience {
+	padding-left:90px;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-color:transparent;
+	background-size: contain;
+}
 
-
-
-
-
-
+div.sliderBox {
+	width:459px;
+	position:relative;
+	height: auto;
+	display:block;
+	overflow:hidden;
+}
+div.sliderWrap {
+	width:2000px;
+	position: relative;
+	right:0;	
+}
+div.slide {
+	float:left;
+	width:459px;
+}
+.sliderPrev, .sliderNext {
+	position:absolute;
+	display:block;
+	font-size:48px;
+	font-weight:800;
+	top:50%;
+	background:transparent;
+	border:transparent;
+}
+.sliderPrev {
+	right:500px;
+}
+.sliderNext {
+	right:-10px;
+}
 
 
 
@@ -352,12 +396,12 @@ h3 {
 	border-color: transparent #ffd291 #ffd291;
     border-radius: 50%;
     border-style: solid;
-    border-width: 36px 10px 11px 16px;
+    border-width: 36px 16px 11px 16px;
     height: 43px;
     left: 98px;
     position: absolute;
     top: 0;
-    width: 39px;
+    width: 36px;
     z-index: 80;
 	-webkit-animation:width 2s -1.7s ease-in-out infinite;
     animation:width 2s -1.7s ease-in-out infinite;	
