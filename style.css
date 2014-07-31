@@ -401,8 +401,9 @@ div.slide {
     top: 0;
     width: 36px;
     z-index: 80;
-	-webkit-animation:width 2s -1.7s ease-in-out infinite;
-    animation:width 2s -1.7s ease-in-out infinite;	
+	/*-webkit-animation:width 2s -1.7s ease-in-out infinite;
+    animation:width 2s -1.7s ease-in-out infinite;	*/
+	overflow: visible !important;
 }
 
 #armR {
@@ -413,8 +414,8 @@ div.slide {
     position: absolute;
     top: -17px;
     width: 37px;
-	-webkit-animation:slide 2s -1.7s ease-in-out infinite;
-    animation:slide 2s -1.7s ease-in-out infinite;
+	/*-webkit-animation:slide 2s -1.7s ease-in-out infinite;
+    animation:slide 2s -1.7s ease-in-out infinite;*/
 }
 #armRfinger0, #armRfinger1, #armRfinger2, #armRfinger3, #armRfinger4 {
 	background-color: #ffd291;

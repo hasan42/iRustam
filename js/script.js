@@ -21,6 +21,21 @@ $(document).ready(function() {
 		setTimeout(function() { toggleButton(); }, 200);
 	});
 	
+	setInterval( function() {
+		$("div#handR").stop(true,true).animate({width: "-=10px"},500, function() {
+			$(this).animate({width: "+=10px"},500);
+		})
+	} , 1000);
+	
+	setInterval( function() {
+		$("div#armR").stop(true,true).animate({left: "-=10px"},500, function() {
+			$(this).animate({left: "+=10px"},500);
+		})
+	} , 1000);
+	
+	
+		
+	
 	//меняет видимость кнопок
 	function toggleButton() {
 		var countSlide = $('.sliderWrap > .slide').size();
