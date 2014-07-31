@@ -5,6 +5,7 @@ $(document).ready(function() {
 	var sliderWrapWidth = countSlide * 500;
 	$("div.sliderWrap").css("width",sliderWrapWidth);
 	
+	//положение слайдера и видимость prev
 	$("div.sliderWrap").css("right", "0");
 	$("button.sliderPrev").hide();	
 	
@@ -20,30 +21,22 @@ $(document).ready(function() {
 		setTimeout(function() { toggleButton(); }, 200);
 	});
 	
+	//меняет видимость кнопок
 	function toggleButton() {
 		var countSlide = $('.sliderWrap > .slide').size();
-		console.log(countSlide);
 		var sliderRightPos = $("div.sliderWrap").css("right");
-		console.log(sliderRightPos);
-		//скрыть левую если начало	
+		//скрыть левую если начало
 		if( sliderRightPos != "0px" ){
-			console.log("T Prev");
 			$("button.sliderPrev").show();
 		}else{
-			console.log("F Prev");
 			$("button.sliderPrev").hide();
 		}
 		
 		//скрыть правую если конец
-		var countSlideMax = countSlide - 1;
-		console.log(countSlideMax);
-		var sliderRightPosMax = countSlideMax * 459;
-		console.log(sliderRightPosMax);
+		var sliderRightPosMax = (countSlide - 1) * 459;
 		if( sliderRightPos != sliderRightPosMax + "px" ){
-			console.log("T Next");
 			$("button.sliderNext").show();
 		}else{
-			console.log("F Next");
 			$("button.sliderNext").hide();
 		}	
 	}
